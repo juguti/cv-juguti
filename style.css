@@ -1,0 +1,23 @@
+
+body {
+        background-image:url('https://i.gifer.com/3HeF.gif');
+        background-size:100%;
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+        height:100%;
+        width:100%;}
+#page{
+    width: 800px;
+    margin: 50px auto;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+
+}
+h1{
+    color: white;
+}
+#phy{
+    width: 30%;
+    width:30%;
+}
