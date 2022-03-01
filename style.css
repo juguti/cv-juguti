@@ -1,19 +1,30 @@
 li{
     color:white;
+    font-size: 30px;
 }
 a{
-    color: rgb(0, 119, 255);
+    color: rgb(50, 146, 255);
 }
 body {
     background-image:url('https://giffiles.alphacoders.com/209/209037.gif');
     background-size:100%;background-repeat: repeat-y;
     background-attachment: fixed;
-    height:100%;width:100%;}
+    height:100%;width:100%;
+    margin: 0;
+    padding: 0;
+
+}
+p{color:white;}
 h1{
     color: rgba(32, 123, 243, 0.753);
     background-color: rgb(88, 0, 0);
     text-align: center;
     font-variant: small-caps;
+    width: 600px;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    margin-top: 0;
 }
 #phy{
 
@@ -30,6 +41,9 @@ h1{
     padding: 10px;
 }
 header{
+    margin-left: 0;
+    margin-right:0;
+    margin-top: 0;
     background: rgb(18,8,175);
     background: linear-gradient(90deg, rgba(18,8,175,1) 0%, rgba(200,200,226,1) 100%, rgba(0,212,255,1) 100%);
 }
@@ -38,27 +52,49 @@ header{
     justify-content: space-around;
     list-style: none;
     padding: 10px;
+    margin-top: 0;
 
 }
 .iconav{
     height: 50px;
     width: auto;
 }
-footer{
-    text-align: center;
-    background-color: rgb(29, 19, 5);
-    color: white;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-}
-#insta{
-    position: absolute;
-    left:60em;
-    bottom: 20px;
-}
 .ar{
     width: auto;
     height: 300px;
 
+}
+footer{
+    background-color: rgb(29, 19, 5);
+    width: 100%;
+    padding-bottom: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns:repeat(7,1fr) ;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+
+.de{
+    position: relative;
+    bottom: 0%;
+    margin-bottom: 0;
+}
+.telechargement{
+    width: 40px;
+    height: auto;
+    background-color: aqua;
+    float: left;
+}
+.insta{
+    height: 50px;
+    width: auto;
+    grid-column: 2;
+    padding: 10px;
+}
+    
+.info{
+    grid-column: 4;
 }
