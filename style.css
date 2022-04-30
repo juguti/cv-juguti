@@ -90,3 +90,6 @@ footer{
     width: 100vw;
     min-height:calc(100vh - 74px - 88px);
 }
+#python_liste{
+    margin-left:20% ;
+}
