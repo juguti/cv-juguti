@@ -1,3 +1,9 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+
+
 li{
     color:white;
     font-size: 30px;
@@ -13,7 +19,10 @@ body, html{
     height: 100%;
 
 }
-p{color:white;}
+p{
+    color:white;
+    margin: 0px;
+}
 h1{
     color: rgba(32, 123, 243, 0.753);
     background-color: rgb(88, 0, 0);
@@ -69,27 +78,23 @@ nav{
 footer{
     background-color: rgb(29, 19, 5);
     width: 100%;
-    padding-bottom: 0;
-    margin: 0;
-    margin-right: 0;
     display: grid;
-    grid-template-columns:repeat(7,1fr) ;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
 }
 .telechargement{
     width: 40px;
     height: auto;
-    background-color: aqua;
     float: left;
 }
 .insta{
     height: 50px;
     width: auto;
-    grid-column: 2;
-    padding: 10px;
 }
-    
-.info{
-    grid-column: 4;
+.git{
+    height: 50px;
+    width: auto;
 }
 .representationimage{
     display: flex;
@@ -97,7 +102,7 @@ footer{
 }
 .main{
     width: 100vw;
-    min-height:calc(100vh - 74px - 88px);
+    min-height:calc(100vh - 74px);
 }
 #python_liste{
     margin-left:20% ;
