@@ -24,8 +24,8 @@ p{
     margin: 0px;
 }
 h1{
-    color: rgba(32, 123, 243, 0.753);
-    background-color: rgb(88, 0, 0);
+    color: rgb(0, 76, 174);
+    background-color: rgb(133, 2, 2);
     text-align: center;
     font-variant: small-caps;
     width: 100%;
@@ -76,7 +76,7 @@ nav{
 
 }
 footer{
-    background-color: rgb(29, 19, 5);
+    background-color: rgb(21, 16, 49);
     width: 100%;
     display: grid;
     display: flex;
@@ -104,6 +104,6 @@ footer{
     width: 100vw;
     min-height:calc(100vh - 74px);
 }
-#python_liste{
+#python_liste,#html_liste{
     margin-left:20% ;
 }
