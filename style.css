@@ -8,7 +8,7 @@ h1{color: rgb(0, 76, 174);background-color: rgb(133, 2, 2);text-align: center;fo
 .div_aceuille_choix{display: flex;justify-content: space-around;}
 nav{margin: 0;background: linear-gradient(90deg, rgba(18,8,175,1) 0%, rgba(200,200,226,1) 100%, rgba(0,212,255,1) 100%);display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;padding: 10px;margin-top: 0;text-align: center;width: 100%;height: 50px;}
 .iconav{height: 50px;width: auto;}
-.iconav:hover{transform: scale(1.1);}
+.iconav:hover{transform: scale(1.2);}
 .ar{width: 300px;height: auto;}
 footer{background-color: rgb(21, 16, 49);width: 100%;display: flex;justify-content: space-around;margin: 0;}
 .telechargement{width: 40px;height: auto;float: left;}
