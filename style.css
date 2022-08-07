@@ -15,4 +15,10 @@ footer{background-color: rgb(21, 16, 49);width: 100%;display: flex;justify-conte
 .footim{height: 50px;width: auto;margin-top: 3px;}
 .representationimage{display: flex;justify-content: space-around;}
 .main{width: 100vw;min-height:calc(100vh);}
-ul{margin-left:20% ;margin-right: 50%;color:white;font-size: 30px;list-style: none;}
+ul{font-size: 30px;list-style: none;margin:0 auto;width: 490px;}
+ul img:hover{
+    transform: scale(1.1);
+}
+footer img:hover{
+    transform: scale(1.1);
+}
