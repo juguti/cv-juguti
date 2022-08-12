@@ -19,7 +19,8 @@ ul{font-size: 30px;list-style: none;margin:0 auto;width: 490px;}
 footer img:hover{transform: scale(1.1);}
 ul{margin:auto; color:white;font-size: 30px;list-style: none;position: relative;left: -35px;}
 ul img:hover{transform: scale(1.1);}
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .div_aceuille_choix{flex-direction: column;margin:auto;position: relative;left:30px;}
     h1{color: aqua;}
     .image_liste{width: 250px; margin: auto;position: relative;left: 110px;}}
+    .representationimage{flex-direction: column;margin: auto;}
