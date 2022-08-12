@@ -1,7 +1,7 @@
 a{color: rgb(50, 146, 255);}
 body{background-image:url('https://giffiles.alphacoders.com/209/209037.gif');margin: 0;padding: 0;overflow-x: hidden;height: 100%;width: 100%;}
 p{color:white;margin: 0px;padding: 0px;}
-h1{color: rgb(0, 76, 174);background-color: rgb(133, 2, 2);text-align: center;font-variant: small-caps;width: 100%;margin-top: 0;}
+h1{color: rgb(0, 76, 174);background-color: rgb(133, 2, 2);text-align: center;font-variant: small-caps;width: 100%;margin:0; padding: 0;}
 .image-choix_index{width: auto;height:370px;}
 .image-choix_index:hover{transform: scale(1.1);}
 .image_liste{width: 500px;height: auto;}
@@ -19,7 +19,7 @@ ul{font-size: 30px;list-style: none;margin:0 auto;width: 490px;}
 footer img:hover{transform: scale(1.1);}
 ul{margin:auto; color:white;font-size: 30px;list-style: none;position: relative;left: -35px;}
 ul img:hover{transform: scale(1.1);}
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     .div_aceuille_choix{
         flex-direction: column;
         margin:auto;
@@ -27,6 +27,7 @@ ul img:hover{transform: scale(1.1);}
         left:30px;
     }
     h1{color: aqua;}
+    .image_liste{width: 250px; margin: auto;position: relative;left: 110px;}
 
    
 }
